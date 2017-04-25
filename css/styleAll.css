@@ -1,0 +1,28 @@
+body{
+    background: url("http://testdrive.com.ua/wp-content/uploads/2015/05/C31.jpeg") repeat-y chocolate center top;
+    height: 1500px;
+}
+
+.block {
+background-color:aliceblue;
+    width: 90%;
+     margin-top: 20px;
+    margin-left: 5%;
+    padding: 5%;
+    border-radius: 10px;
+    border: 1px solid silver;
+    font-size: 1.1em;
+    color: black;
+}
+ 
+@font-face {
+    font-family: museocyrl; /* Название */
+    src: url("css/css/museocyrl.css.css") ; /* Путь к файлу */
+   }
+ 
+p {
+color:black;
+font-size: 1.1em;
+font-family: museocyrl, cursive; /* Указываем для данного элемента подключенный нестандартный шрифт */
+   }
+
